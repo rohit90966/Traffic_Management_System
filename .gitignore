@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# But not these specific files
+!train.py
+!tes.py
+
+# Also do not ignore .gitignore itself
+!.gitignore
+
+# Optional: Allow folders if they’re needed
+!*/
